@@ -1,0 +1,99 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+font-family:sans-serif;
+background:#0f172a;
+color:white;
+}
+
+/* LOGIN */
+
+.login-body{
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+background:#020617;
+}
+
+.login-box{
+background:#1e293b;
+padding:30px;
+border-radius:10px;
+text-align:center;
+width:300px;
+}
+
+.logo-login{
+width:80px;
+margin-bottom:10px;
+}
+
+input{
+width:100%;
+padding:10px;
+margin:10px 0;
+border:none;
+border-radius:6px;
+}
+
+button{
+padding:10px;
+margin:5px;
+background:#dc2626;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+/* BOTÓN ACTIVO */
+.activo{
+background:#22c55e !important;
+}
+
+/* HEADER */
+
+header{
+background:#1e293b;
+padding:20px;
+text-align:center;
+position:relative;
+}
+
+.logout{
+position:absolute;
+right:20px;
+top:20px;
+}
+
+/* ALERTAS */
+
+.alertas{
+padding:20px;
+}
+
+.alerta{
+background:#1e293b;
+padding:15px;
+margin-bottom:10px;
+border-left:6px solid red;
+}
+
+.alerta.atendida{
+opacity:0.6;
+border-left:6px solid green;
+}
+
+.estado{
+color:#22c55e;
+font-weight:bold;
+margin-top:10px;
+}
+
+/* FORM */
+
+.simulador{
+padding:20px;
+text-align:center;
+}
